@@ -59,4 +59,5 @@ def testRequest():
         # 成功完成請求，離開迴圈
         break
 
-testRequest()
+if __name__ == '__main__':
+    testRequest()
